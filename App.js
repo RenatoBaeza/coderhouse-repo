@@ -6,7 +6,7 @@ export default function App() {
     <SafeAreaView style={styles.safeArea}>
       <View style={styles.container}>
         <View style={styles.inputContainer}>
-          <TextInput style={styles.input} placeholder='add new tasks' />
+          <TextInput style={styles.input} placeholder='Add new tasks...' placeholderTextColor={'gray'} autoCapitalize='none' cursorColor='#424DEE' selectionColor={'red'}/>
           <Button title='Create' color='#424D9E' />
         </View>
       </View>
